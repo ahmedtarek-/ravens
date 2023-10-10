@@ -57,189 +57,189 @@ for (var i = 0; i < top_img.length; i++) {
   all_pages.push(page)
 }
 
-var opts = ["A", "B", "C", "D", "E", "F", "G", "H"]
+var opts = ["1", "2", "3", "4", "5", "6", "7", "8"]
 
 var all_options = fillArray([opts], 18)
 
 var scale_q1 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q2 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 1,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 1,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q3 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 1,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 1,
+  "8": 0
 }
 var scale_q4 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q5 = {
-  "A": 0,
-  "B": 0,
-  "C": 1,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 1,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q6 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q7 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 1,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 1,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q8 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q9 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q10 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 1,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 1,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q11 = {
-  "A": 1,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 1,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q12 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 1,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 1,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q13 = {
-  "A": 1,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 1,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q14 = {
-  "A": 0,
-  "B": 0,
-  "C": 1,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 1,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q15 = {
-  "A": 0,
-  "B": 1,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 1,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q16 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 1,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 1,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 var scale_q17 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 0,
-  "E": 0,
-  "F": 1,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 0,
+  "5": 0,
+  "6": 1,
+  "7": 0,
+  "8": 0
 }
 var scale_q18 = {
-  "A": 0,
-  "B": 0,
-  "C": 0,
-  "D": 1,
-  "E": 0,
-  "F": 0,
-  "G": 0,
-  "H": 0
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "4": 1,
+  "5": 0,
+  "6": 0,
+  "7": 0,
+  "8": 0
 }
 
 var score_scale = [
@@ -285,7 +285,7 @@ var instructions_block = {
   type: 'poldrack-instructions',
   pages: [
     '<div class = centerbox><p class = block-text>Dies ist ein Test zum Beobachtungs- und Denkvermögen mit 12 Aufgaben. Der obere Teil jeder Aufgabe ist ein Muster, aus dem ein Teil ausgeschnitten wurde. Ihre Aufgabe ist es, das Muster zu betrachten und sich zu überlegen, wie das fehlende Teil aussehen muss, um das Muster korrekt zu vervollständigen - sowohl entlang der Zeilen als auch der Spalten - und dann das richtige Teil aus den acht gezeigten zu finden. Nur eine der Antwortmöglichkeiten ist richtig. <br><br> Auf der folgenden Seite finden Sie eine Beispielaufgabe.</p></div>',
-    '<div class = centerbox><p class = block-text><strong> Schauen Sie sich den oberen Teil (das Muster) dieser Beispielaufgabe an. </strong> Beachten Sie, dass die Anzahl der horizontalen Linien in den Zeilen gleich ist. Wenn Sie die Spalten abwärts gehen, ist die Anzahl der Quadrate gleich. <div class="sample_img"><img src = "images/practice/sample_matrix_top.jpg"</img></div><p class= "block-text"><strong>Schauen Sie sich die Lösung dieser Beispielaufgabe an.</strong> Die beste Ergänzung für die fehlende Zelle ist die Antwortmöglichkeit "E", die unten ausgewählt ist. </p><div class="sample_img"><img src = "images/practice/sample_matrix_bottom.jpg" id="bottom_img"</img></div><div class="sample_img"><img src = "images/practice/Opt_E_selected.png"</img></div></p></div>',
+    '<div class = centerbox><p class = block-text><strong> Schauen Sie sich den oberen Teil (das Muster) dieser Beispielaufgabe an. </strong> Beachten Sie, dass die Anzahl der horizontalen Linien in den Zeilen gleich ist. Wenn Sie die Spalten abwärts gehen, ist die Anzahl der Quadrate gleich. <div class="sample_img"><img style="width:400px;" src="images/practice/sample_matrix_top.jpg"</img></div><p class= "block-text"><strong>Schauen Sie sich die Lösung dieser Beispielaufgabe an.</strong> Die beste Ergänzung für die fehlende Zelle ist die Antwortmöglichkeit "5", die unten ausgewählt ist. </p><div class="sample_img"><img style="width:450px;height:200px" src="images/practice/sample_matrix_bottom.jpg" id="bottom_img"</img></div><div class="sample_img"><img src="images/practice/Opt_E_selected.png"</img></div></p></div>',
     '<div class = centerbox><p class = center-block-text>Sie werden nun zwei Übungsaufgaben mit anschließender Auflösung durchführen. Die Testaufgaben enthalten keine Auflösung.</p></div>'
   ],
   allow_keys: false,
@@ -343,24 +343,24 @@ var practice_block_1 = {
   preamble: '',
   pages: [
     [
-      '<div><img src = "images/practice/practice_top_1.jpg"</img></div><div><img src = "images/practice/practice_bottom_1.jpg" id="bottom_img"</img></div>'
+      '<div><img src = "images/practice/practice_top_1.jpg"</img></div><div><img style="width:450px;height:200px" src="images/practice/practice_bottom_1.jpg" id="bottom_img"</img></div>'
     ]
   ],
   options: [
     [
-      ["A", "B", "C", "D", "E", "F", "G", "H"]
+      ["1", "2", "3", "4", "5", "6", "7", "8"]
     ]
   ],
   scale: [
     [{
-      "A": 0,
-      "B": 0,
-      "C": 1,
-      "D": 0,
-      "E": 0,
-      "F": 0,
-      "G": 0,
-      "H": 0
+      "1": 0,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0
     }]
   ],
   show_clickable_nav: true,
@@ -406,24 +406,24 @@ var practice_block_2 = {
   preamble: '',
   pages: [
     [
-      '<div><img src = "images/practice/practice_top_2.jpg"</img></div><div><img src = "images/practice/practice_bottom_2.jpg" id="bottom_img"</img></div>'
+      '<div><img style="width:500px;" src="images/practice/practice_top_2.jpg"</img></div><div><img style="width:450px;height:200px" src="images/practice/practice_bottom_2.jpg" id="bottom_img"</img></div>'
     ]
   ],
   options: [
     [
-      ["A", "B", "C", "D", "E", "F", "G", "H"]
+      ["1", "2", "3", "4", "5", "6", "7", "8"]
     ]
   ],
   scale: [
     [{
-      "A": 0,
-      "B": 0,
-      "C": 0,
-      "D": 0,
-      "E": 0,
-      "F": 1,
-      "G": 0,
-      "H": 0
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 1,
+      "7": 0,
+      "8": 0
     }]
   ],
   show_clickable_nav: true,
