@@ -343,7 +343,7 @@ var practice_block_1 = {
   preamble: '',
   pages: [
     [
-      '<div><img src = "images/practice/practice_top_1.jpg"</img></div><div><img style="width:450px;height:200px" src="images/practice/practice_bottom_1.jpg" id="bottom_img"</img></div>'
+      '<div><img style="width:500px;" src="images/practice/practice_top_1.jpg"</img></div><div><img style="width:450px;height:200px" src="images/practice/practice_bottom_1.jpg" id="bottom_img"</img></div>'
     ]
   ],
   options: [
