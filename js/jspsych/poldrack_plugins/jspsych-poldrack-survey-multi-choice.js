@@ -246,10 +246,10 @@ jsPsych.plugins['poldrack-survey-multi-choice'] = (function() {
         
           // add back button if the current page is not 0 and going back is allowed in the parameters
           if (current_page != 0 && trial.allow_backward) {
-            nav_html += "<div class = 'left'><button id='jspsych-survey-multi-choice-back' class='jspsych-btn'>&lt; Previous</button></div>";
+            nav_html += "<div class = 'left'><button id='jspsych-survey-multi-choice-back' class='jspsych-btn'>&lt; Zurück</button></div>";
           }
 
-          nav_html += "<div class = 'right'><button id='jspsych-survey-multi-choice-next' class='jspsych-btn'>Next &gt;</button><div></div>"
+          nav_html += "<div class = 'right'><button id='jspsych-survey-multi-choice-next' class='jspsych-btn'>Weiter &gt;</button><div></div>"
 
           // add html for button to the page
           display_element.append(nav_html);
