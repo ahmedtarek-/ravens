@@ -33,17 +33,18 @@ var sumInstructTime = 0 //ms
 var instructTimeThresh = 0 ///in seconds
 
 var path = 'images/'
-var prefix = '<div><img src = "'
-var bottom_id = '" id="bottom_img'
-var postfix = '"</img></div>'
+var prefix = '<div><img src="'
+var bottom_id = '" id="bottom_img"'
+var top_style = ' style="width:500px;"'
+var bottom_style = ' style="width:450px;height:200px"'
+var postfix = '</img></div>'
+var closing_par = '"'
 var top_img = ['top_1.jpg', 'top_2.jpg', 'top_3.jpg', 'top_4.jpg', 'top_5.jpg', 'top_6.jpg',
-  'top_7.jpg', 'top_8.jpg', 'top_9.jpg', 'top_10.jpg', 'top_11.jpg', 'top_12.jpg', 'top_13.jpg',
-  'top_14.jpg', 'top_15.jpg', 'top_16.jpg', 'top_17.jpg', 'top_18.jpg'
+  'top_7.jpg', 'top_8.jpg', 'top_9.jpg', 'top_10.jpg', 'top_11.jpg', 'top_12.jpg'
 ]
 var bottom_img = ['bottom_1.jpg', 'bottom_2.jpg', 'bottom_3.jpg', 'bottom_4.jpg', 'bottom_5.jpg',
   'bottom_6.jpg', 'bottom_7.jpg', 'bottom_8.jpg', 'bottom_9.jpg', 'bottom_10.jpg',
-  'bottom_11.jpg', 'bottom_12.jpg', 'bottom_13.jpg', 'bottom_14.jpg', 'bottom_15.jpg',
-  'bottom_16.jpg', 'bottom_17.jpg', 'bottom_18.jpg'
+  'bottom_11.jpg', 'bottom_12.jpg'
 ]
 var practice_tries = 0
 var practice_thresh = 5
@@ -52,14 +53,14 @@ var all_pages = []
 
 for (var i = 0; i < top_img.length; i++) {
   var page = []
-  page.push(prefix + path + top_img[i] + postfix + prefix + path + bottom_img[i] + bottom_id +
-    postfix)
+  page.push(prefix + path + top_img[i] + closing_par + top_style + postfix +
+    prefix + path + bottom_img[i] + bottom_id + bottom_style + postfix)
   all_pages.push(page)
 }
 
 var opts = ["1", "2", "3", "4", "5", "6", "7", "8"]
 
-var all_options = fillArray([opts], 18)
+var all_options = fillArray([opts], 12)
 
 var scale_q1 = {
   "1": 0,
@@ -181,66 +182,6 @@ var scale_q12 = {
   "7": 0,
   "8": 0
 }
-var scale_q13 = {
-  "1": 1,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 0,
-  "7": 0,
-  "8": 0
-}
-var scale_q14 = {
-  "1": 0,
-  "2": 0,
-  "3": 1,
-  "4": 0,
-  "5": 0,
-  "6": 0,
-  "7": 0,
-  "8": 0
-}
-var scale_q15 = {
-  "1": 0,
-  "2": 1,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 0,
-  "7": 0,
-  "8": 0
-}
-var scale_q16 = {
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 1,
-  "6": 0,
-  "7": 0,
-  "8": 0
-}
-var scale_q17 = {
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 0,
-  "5": 0,
-  "6": 1,
-  "7": 0,
-  "8": 0
-}
-var scale_q18 = {
-  "1": 0,
-  "2": 0,
-  "3": 0,
-  "4": 1,
-  "5": 0,
-  "6": 0,
-  "7": 0,
-  "8": 0
-}
 
 var score_scale = [
   [scale_q1],
@@ -254,13 +195,7 @@ var score_scale = [
   [scale_q9],
   [scale_q10],
   [scale_q11],
-  [scale_q12],
-  [scale_q13],
-  [scale_q14],
-  [scale_q15],
-  [scale_q16],
-  [scale_q17],
-  [scale_q18]
+  [scale_q12]
 ]
 /* ************************************ */
 /* Set up jsPsych blocks */
@@ -482,7 +417,7 @@ var survey_block = {
   scale: score_scale,
   show_clickable_nav: true,
   allow_backward: true,
-  required: fillArray([true], 18),
+  required: fillArray([true], 12),
 };
 
 var end_block = {
